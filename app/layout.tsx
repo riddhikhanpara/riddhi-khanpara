@@ -13,9 +13,13 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Riddhi Khanpara | Full Stack Developer',
-    description: 'Full Stack Developer with 3+ years of experience building scalable web applications using React.js, Next.js, TypeScript, Node.js and NestJS.',
+    description:
+      'Full Stack Developer with 3+ years of experience building scalable web applications using React.js, Next.js, TypeScript, Node.js and NestJS.',
   },
-  icons: { icon: '/favicon.svg' },
+  icons: {
+    icon: [{ url: '/icon', type: 'image/png' }],
+    apple: [{ url: '/apple-icon', type: 'image/png' }],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
