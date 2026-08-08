@@ -1,20 +1,19 @@
-<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
   <defs>
-    <linearGradient id="rk" x1="20" y1="20" x2="160" y2="160" gradientUnits="userSpaceOnUse">
+    <linearGradient id="rk" x1="16" y1="14" x2="48" y2="50" gradientUnits="userSpaceOnUse">
       <stop stop-color="#7cf6d2"/>
       <stop offset="1" stop-color="#9fb0ff"/>
     </linearGradient>
   </defs>
-  <rect width="180" height="180" rx="40" fill="#0d1128"/>
-  <rect x="8" y="8" width="164" height="164" rx="34" stroke="url(#rk)" stroke-width="3" fill="none" opacity="0.55"/>
+  <rect width="64" height="64" rx="16" fill="#0d1128"/>
   <text
-    x="90"
-    y="118"
+    x="32"
+    y="42"
     text-anchor="middle"
-    font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif"
-    font-size="78"
-    font-weight="700"
-    letter-spacing="-2"
+    font-family="Arial Black, Arial, Helvetica, sans-serif"
+    font-size="28"
+    font-weight="800"
+    letter-spacing="-1.2"
     fill="url(#rk)"
   >RK</text>
 </svg>
